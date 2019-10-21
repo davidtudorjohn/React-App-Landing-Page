@@ -1,0 +1,49 @@
+#emailForm{
+    position: absolute;
+    top: 760px;
+    margin:0px 20px;
+    
+    text-align: center;
+    width: 100%;
+}
+#subscribeHeading{
+    color: orange;
+    font-size: 24px;
+    padding: 10px 40px;
+}
+#subscribeBtn{
+    outline: none;
+    border: none;
+    border-left: none;
+    background-color: orange;
+    border: solid 1px orange;
+    padding: 1.2em 3em;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 0px 5em 5em 0px;
+    color: #fefefe;
+    cursor: pointer;
+
+}
+#subscribeBtn:hover{
+    background-color: orange;
+}
+#emailInput{
+    padding: 1.2em 2.6em;
+    border: solid 2px orange;
+    border-radius: 5em 0px 0px 5em;
+    border-right: none;
+    font-family: raleway;
+    font-style: none;
+    min-width: 240px;
+}
+
+#termsLabel{
+    font-size: 12px;
+    font-weight: 500;
+    color: #fefefe;
+    padding-right: 6px;
+}
+input #agreeTerms{
+    padding-left: 10px;
+}
